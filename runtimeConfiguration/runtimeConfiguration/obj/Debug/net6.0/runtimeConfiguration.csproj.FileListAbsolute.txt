@@ -1,0 +1,15 @@
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\bin\Debug\net6.0\runtimeConfiguration.exe
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\bin\Debug\net6.0\runtimeConfiguration.deps.json
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\bin\Debug\net6.0\runtimeConfiguration.runtimeconfig.json
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\bin\Debug\net6.0\runtimeConfiguration.dll
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\bin\Debug\net6.0\runtimeConfiguration.pdb
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\obj\Debug\net6.0\runtimeConfiguration.csproj.AssemblyReference.cache
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\obj\Debug\net6.0\runtimeConfiguration.GeneratedMSBuildEditorConfig.editorconfig
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\obj\Debug\net6.0\runtimeConfiguration.AssemblyInfoInputs.cache
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\obj\Debug\net6.0\runtimeConfiguration.AssemblyInfo.cs
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\obj\Debug\net6.0\runtimeConfiguration.csproj.CoreCompileInputs.cache
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\obj\Debug\net6.0\runtimeConfiguration.dll
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\obj\Debug\net6.0\refint\runtimeConfiguration.dll
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\obj\Debug\net6.0\runtimeConfiguration.pdb
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\obj\Debug\net6.0\runtimeConfiguration.genruntimeconfig.cache
+D:\kuliah\semester 4\konstruksi PL\runtimeConfiguration\runtimeConfiguration\runtimeConfiguration\obj\Debug\net6.0\ref\runtimeConfiguration.dll
