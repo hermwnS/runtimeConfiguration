@@ -8,20 +8,21 @@ internal class Program
         Console.WriteLine("Language (en/id): ");
         string pilihanBahasa = Console.ReadLine();
 
-        string pesan = (pilihanBahasa == "en") ? cfg.konfig.pesanAwal.en : cfg.konfig.pesanAwal.id;
-        Console.WriteLine(pesan);
+        Bahasa bhs = (pilihanBahasa == "en") ? cfg.konfig.bahasa.en : cfg.konfig.bahasa.id;
+
+        Console.WriteLine(bhs.pesanAwal);
 
         string jenisBarang = Console.ReadLine();
         double hargaBarang = Convert.ToDouble(Console.ReadLine());
 
         double totalDiskon = 0;
 
-        if (cfg.konfig.jenisKenaDiskon.Contains(jenisBarang))
+        if (bhs.jenisKenaDiskon.Contains(jenisBarang))
         {
             totalDiskon = hargaBarang * cfg.konfig.diskon / 100;
         }
         
-        Console.WriteLine(hargaBarang - totalDiskon);
+        Console.WriteLine(bhs.pesanAkhir + (hargaBarang - totalDiskon));
     }
 }
 
@@ -62,32 +63,37 @@ public class AppKonfig
     public void SetDefault()
     {
         konfig = new Konfig();
-        konfig.pesanAwal = new PesanAwal();
+        /*konfig.pesanAwal = new PesanAwal();
         konfig.pesanAwal.en = "Please enter your item type followed by the item price : ";
         konfig.pesanAwal.id = "Masukkan jenis barang dan harga barangnya : ";
 
         konfig.diskon = 25.0;
         konfig.jenisKenaDiskon = new List<string>();
         konfig.jenisKenaDiskon.Add("baju");
-        konfig.jenisKenaDiskon.Add("celana");
+        konfig.jenisKenaDiskon.Add("celana");*/
     }
 }
 
 public class Konfig
 {
-    public PesanAwal pesanAwal { get; set; }
+    public PilihanBahasa bahasa { get; set; }
     public double diskon { get; set; }
-    public List<string> jenisKenaDiskon { get; set; }
 
     public Konfig() { }
 }
 
-public class PesanAwal
+public class PilihanBahasa
 {
-    public string en { get; set; }
-    public string id { get; set;}
+    public Bahasa en { get; set; }
+    public Bahasa id { get; set; }
+    public PilihanBahasa() { }
+}
 
-    public PesanAwal() { }
+public class Bahasa
+{
+    public string pesanAwal { get; set; }
+    public string pesanAkhir { get; set; }
+    public List<string> jenisKenaDiskon { get; set; }
 
-
+    public Bahasa() { }
 }

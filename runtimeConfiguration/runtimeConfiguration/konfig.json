@@ -1,12 +1,23 @@
 {
-  "pesanAwal": {
-    "en": "Please enter your item type followed by the item price : ",
-    "id": "Masukkan jenis barang dan kemudian harga barangnya : "
+  "bahasa": {
+    "en": {
+      "pesanAwal": "Please enter your item type followed by the item price : ",
+      "pesanAkhir": "Total price is ",
+      "jenisKenaDiskon": [
+        "shirt",
+        "pants",
+        "hat"
+      ]
+    },
+    "id": {
+      "pesanAwal": "Masukkan jenis barang dan kemudian harga barangnya : ",
+      "pesanAkhir": "Total harga = ",
+      "jenisKenaDiskon": [
+        "baju",
+        "celana",
+        "topi"
+      ]
+    }
   },
-  "diskon": 25,
-  "jenisKenaDiskon": [
-    "baju",
-    "celana",
-    "topi"
-  ]
+  "diskon": 25;
 }
